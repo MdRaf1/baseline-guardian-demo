@@ -1,0 +1,6 @@
+# .baseline-guardian.yml
+# Fail the check if any 'newly available' features are used.
+# Warn about any 'limited availability' features.
+policy:
+  newly_available: fail
+  limited_availability: warn
